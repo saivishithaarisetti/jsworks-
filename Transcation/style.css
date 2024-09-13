@@ -1,0 +1,282 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #bcceee, #85b5f8);
+    margin: 0;
+    padding: 0;
+}
+/* Style for the back button */
+.back-btn {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.sub {
+    background-color: #ba27db;
+    width: 25%;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-top: 10%;
+}
+
+.sub:hover {
+    background-color: #b774c6;
+    transform: translateY(-10px);
+}
+
+.head h1 {
+    margin-top: 50px;
+    color: rgb(164, 95, 221);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.sub h4 {
+    text-align: center;
+    font-size: 24px;
+    color: #0d0c0d;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20%;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Account Section */
+.acc h1 {
+    text-align: center;
+    color: rgb(221, 95, 173);
+    padding-top: 5%;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.details {
+    background-color: rgb(127, 57, 202);
+    width: 40%;
+    line-height: 1.8;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto; /* Center the details box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn1, .btn2, .btn3 {
+    padding: 15px 30px;
+    background-color: rgb(84, 133, 185);
+    margin: 0 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+    background-color: rgb(42, 45, 48);
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+/*Debit section*/
+
+.deb h2 {
+    color: rgb(67, 163, 242);
+    text-align: center;
+    margin-top: 5%;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.debit {
+    background-color: rgb(246, 101, 164);
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 75px auto; /* Center the debit box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lab {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#debit_amt {
+    width: calc(100% - 24px); /* Adjust width to fit the padding */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.subm {
+    padding: 12px 20px;
+    background-color: rgb(45, 164, 203);
+    border: 1px solid black;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+.subm:hover {
+    background-color: rgb(74, 81, 134);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.mix {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.check, .accountt {
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white(76, 75, 75);
+    color: rgb(88, 152, 249);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+}
+
+
+
+.check:hover, .accountt:hover {
+    background-color: rgb(121, 238, 242);
+    color: rgb(9, 9, 9);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Credit Section */
+.cre h2 {
+    color: rgb(72, 160, 162);
+    text-align: center;
+    margin-top: 5%;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lab1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+}
+.hint {
+    background-color: rgb(143, 156, 227);
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 75px auto; /* Center the hint box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hold {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#amount {
+    width: calc(100% - 24px); /* Adjust width to fit the padding */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.button0, .button9 {
+    padding: 12px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: rgb(11, 90, 100);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+}
+
+.button0:hover, .button9:hover {
+    background-color: rgb(54, 224, 222);
+    color: rgb(9, 9, 9);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn8 {
+    padding: 12px 20px;
+    background-color: rgb(228, 86, 117);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+.btn8:hover {
+    background-color: rgb(135, 58, 107);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
